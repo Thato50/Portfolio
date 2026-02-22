@@ -3,11 +3,252 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thato Mphahlele</title>
-    <link rel="sty;esheet" href="style.css">
+    <title>Thato Mphahlele | Junior Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    
+    <!-- Navigation -->
+    <header>
+        <h1 class="logo">TM</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h2><span class="highlight">Thato Mphahlele</span></h2>
+            <h3 class="subtitle">Junior Software Developer</h3>
+            <p class="tagline">I craft digital solutions through code, turning complex problems into simple, user-friendly experiences while continuously learning and growing as a developer.</p>
+            
+            <!-- Tech Stack Icons -->
+            <div class="tech-icons">
+                <i class="fa-solid fa-database" title="SQL"></i>
+                <i class="fa-brands fa-react" title="React"></i>
+                <i class="fa-solid fa-code" title="Flutter"></i>
+                <i class="fa-solid fa-hashtag" title="C#"></i>
+                <i class="fa-brands fa-microsoft" title="Azure"></i>
+                <i class="fa-brands fa-github" title="GitHub"></i>
+                <i class="fa-brands fa-js" title="JavaScript"></i>
+                <i class="fa-brands fa-html5" title="HTML"></i>
+                <i class="fa-brands fa-python" title="Python"></i>
+            </div>
+            
+            <!-- Download CV Button -->
+            <a href="Thato_Mphahlele_Resume.pdf" download="Thato_Mphahlele_CV.pdf" class="download-btn">
+                📄 Download CV (.pdf)
+            </a>
+        </div>
+        
+        <!-- Profile Image -->
+        <div class="home-image">
+            <img src="images/picture_of_myself.jpeg" alt="Thato Mphahlele">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I'm a Junior Software Developer trained through GirlCode's NQF 5 learnership, where I gained hands-on experience in full-stack development, working in agile 
+                    teams and applying software development principles to build responsive user 
+                    interfaces and backend functionality.
+                </p>
+                <p>
+                    I'm Microsoft Azure Fundamentals (AZ-900) and GitHub Foundations certified, with 
+                    practical knowledge of cloud infrastructure, version control, and CI/CD workflows. 
+                    Through job shadowing at Kion Consulting, I've gained exposure to professional 
+                    development environments and industry best practices.
+                </p>
+                <p>
+                    Outside of formal training, I love participating in hackathons,building solutions 
+                    under pressure and collaborating with fellow developers energizes me.
+                </p>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React.js</li>
+                            <li>Flutter</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>C#</li>
+                            <li>Python</li>
+                            <li>SQL Databases</li>
+                            <li>REST APIs</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>Azure</li>
+                            <li>VS Code</li>
+                            <li>Visual Studio</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/VoltageWatch AI.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>VoltageWatch AI</h3>
+                        <p>A machine learning-based energy monitoring system that detects electricity theft patterns using consumption data analysis. The platform identifies high-risk households, visualizes hotspot areas, and supports inspector route optimization through an interactive dashboard.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span> 
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">
+                                <i class="fa-brands fa-github"></i> Code
+                            </a>
+                            <a href="#" class="btn-link">
+                                <i class="fa-solid fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/SmartBus.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>SmartBus</h3>
+                        <p>A React Native mobile app that allows commuters to track buses in real time, plan routes, refill travel coupons, and receive delay notifications. The app integrates with a Django REST backend for authentication, GPS tracking, payments, and trip history.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span> 
+                            <span class="tech-tag">Expo</span>
+                            <span class="tech-tag">Django REST Framework</span>
+                            <span class="tech-tag">Firebase Cloud Messaging</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">
+                                <i class="fa-brands fa-github"></i> Code
+                            </a>
+                            <a href="#" class="btn-link">
+                                <i class="fa-solid fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/PathFinder.png" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Pathfinder – Early Talent Intelligence System</h3>
+                        <p>Pathfinder is an adaptive learning platform designed for Grades 1–9 that identifies learners’ natural strengths (artistic, analytical, or balanced) through interaction-based pattern analysis. The system provides personalised insights to parents and teachers, helping guide learners toward suitable academic paths early to reduce future skill mismatches and unemployment.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">
+                                <i class="fa-brands fa-github"></i> Code
+                            </a>
+                            <a href="#" class="btn-link">
+                                <i class="fa-solid fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <img src="images/Azure.png" alt="Azure Certificate" class="cert-badge">
+                    <h3>Microsoft Certified: Azure Fundamentals</h3>
+                    <p>Microsoft</p>
+                    <p class="cert-date">Issued:February 2026</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="images/github.png" alt="GitHub Certificate" class="cert-badge">
+                    <h3>GitHub Foundations</h3>
+                    <p>GitHub</p>
+                    <p class="cert-date">Issued: June 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    I'm currently looking for internship opportunities! Feel free to reach out if you'd like to work together.
+                </p>
+                
+                <div class="contact-methods">
+                    <a href="mailto:thatomphahlele57@gmail.com" class="contact-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>thatomphahlele57@gmail.com</p>
+                    </a>
+                    
+                    <a href="https://github.com/Thato50" target="_blank" class="contact-card">
+                        <i class="fa-brands fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Thato50</p>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/thatomphahlele/" target="_blank" class="contact-card">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p>thatomphahlele</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Thato Mphahlele. All rights reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
